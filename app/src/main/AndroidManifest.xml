@@ -9,7 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Dashboard"></activity>
+        <activity android:name=".LSI"></activity>
+        <activity android:name=".AOV" />
+        <activity android:name=".COC" />
+        <activity android:name=".CODM" />
+        <activity android:name=".PUBGM" />
+        <activity android:name=".MLBB" />
+        <activity android:name=".Dashboard" />
         <activity android:name=".Registrasi" />
         <activity android:name=".Login" />
         <activity android:name=".MainActivity" />

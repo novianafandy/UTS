@@ -49,13 +49,13 @@
         android:layout_height="wrap_content">
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/buttonLog"
             android:layout_width="104dp"
             android:layout_height="wrap_content"
             android:text="LOGIN" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/buttonDaf"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="DAFTAR" />

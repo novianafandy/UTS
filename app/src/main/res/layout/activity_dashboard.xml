@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#CCCAB6"
     tools:context=".Dashboard">
 
     <LinearLayout
@@ -13,50 +14,139 @@
 
         <ImageView
             android:id="@+id/imageView2"
-            android:layout_width="115dp"
-            android:layout_height="wrap_content"
-            app:srcCompat="@mipmap/ic_launcher_round" />
+            android:layout_width="148dp"
+            android:layout_height="141dp"
+            android:layout_marginTop="30dp"
+            app:srcCompat="@drawable/logo" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:gravity="center"
             android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_action_pp" />
 
             <TextView
                 android:id="@+id/textView6"
-                android:layout_width="match_parent"
+                android:layout_width="240dp"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:text="Service" />
 
             <EditText
                 android:id="@+id/editText7"
-                android:layout_width="match_parent"
+                android:layout_width="240dp"
                 android:layout_height="wrap_content"
                 android:ems="10"
+                android:drawableRight="@drawable/ic_action_cari"
                 android:inputType="textPersonName"
-                android:text="Name" />
+                android:layout_marginBottom="80dp"
+                android:hint="Cari menu ... "/>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pilih Game Favorite Kamu" />
 
             <TableLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:layout_height="wrap_content">
 
                 <TableRow
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent" />
+                    android:layout_height="match_parent" >
+
+                    <Button
+                        android:id="@+id/buttonmlbb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="mlbb" />
+
+                    <Button
+                        android:id="@+id/buttonpubg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="pubgm" />
+                </TableRow>
 
                 <TableRow
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent" />
+                    android:layout_height="match_parent" >
+
+                    <Button
+                        android:id="@+id/buttoncod"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="codm" />
+
+                    <Button
+                        android:id="@+id/buttoncoc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="coc" />
+                </TableRow>
 
                 <TableRow
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent" />
+                    android:layout_height="match_parent" >
 
-                <TableRow
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent" />
+                    <Button
+                        android:id="@+id/buttonaov"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="aov" />
+
+                    <Button
+                        android:id="@+id/buttonlsi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="lsi" />
+
+                </TableRow>
+
             </TableLayout>
+
+            <LinearLayout
+                android:layout_marginTop="40dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/imageButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/ic_action_inbox" />
+
+                <ImageButton
+                    android:id="@+id/imageButton2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/ic_action_subs" />
+
+                <ImageButton
+                    android:id="@+id/imageButton3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/ic_action_card" />
+
+                <ImageButton
+                    android:id="@+id/imageButton4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/ic_action_group" />
+            </LinearLayout>
         </LinearLayout>
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

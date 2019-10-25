@@ -28,6 +28,6 @@
         android:layout_marginStart="40dp"
         android:layout_marginBottom="137dp"
         android:fontFamily="@font/just_another_hand"
-        android:text="PBT e-Sports Comunity"
+        android:text="PBT e-Sports Community"
         android:textSize="48sp" />
 </RelativeLayout>
